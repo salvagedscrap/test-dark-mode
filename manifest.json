@@ -13,7 +13,8 @@
     "content_scripts": [
       {
         "matches": ["*://*.ankiweb.net/*", "*://*.ankiuser.net/*", "*://*.pythontutor.com/*"],
-        "js": ["dark-mode.js"]
+        "js": ["dark-mode.js"],
+        "css": ["test-style.css"]
       }
     ]
   
