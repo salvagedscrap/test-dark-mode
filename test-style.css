@@ -1,14 +1,105 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 #header{
     color: white; 
 }
 
 body{
-    font-size: 2.6rem;
+ 
     
     background-color: rgba(0, 0, 0, 0.874);
     color: white;
     padding: 1.2rem 2rem;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     bottom: 4rem;
     right: 6rem;
+}
+
+/* MAKIN IT MORE BEAUTIFUL / ANKI */
+
+html{
+    font-size: 62.5%;
+}
+.navbar.navbar-toggleable-md {
+    padding: 2rem 1rem;
+}
+
+main{
+    padding: 6rem;
+}
+
+.text-center{
+    padding: 2rem 0;
+    font-size: 1.6rem;
+}
+.btn-secondary{
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.nav-link{
+    font-size: 2rem;
+}
+
+button .btn .btn-link .pl-0{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.btn-link{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.btn-link:hover{
+    color: rgb(82, 115, 223);
+}
+font{
+    font-size: 1.6rem;
+    color: #fff;
+}
+.container-fluid{
+    padding: 4rem;
+}
+
+a.btn.btn-secondary{
+    font-size: 2rem;
+    color: #000;
+}
+a.btn.btn-secondary:hover{
+    color: rgba(0, 0, 0, 0.623);
+}
+button.btn.btn-primary,
+input.btn.btn-primary{
+    font-size: 1.6rem;
+}
+.col-2.col-form-label{
+    font-size: 1.6rem;
+}
+.form-group{
+    padding: 1.5rem 0;
+}
+.form-control{
+    font-size: 2rem;
+    height: 50px;
+    line-height: 50px;
+    size: 5;
+    
+}
+
+select.form-control:not([size]):not([multiple]){
+
+    height: calc(4rem + 2px);
+}
+.col-10{
+    line-height: 4rem;
+    
+}
+small{
+    font-size: 1.6rem;
 }
