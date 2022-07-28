@@ -103,3 +103,37 @@ select.form-control:not([size]):not([multiple]){
 small{
     font-size: 1.6rem;
 }
+
+
+/* 28/07/2022 UPDATE FOR HEADER/FOOTER DARK COLOUR */
+
+/* .navbar,
+main+.container-fluid  {
+    background-color: #A9A9A9;
+} */
+
+.navbar,
+main+.container-fluid  {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+span{
+    color: #fff;
+}
+.nav-item a.nav-link,
+.navbar-nav .nav-item .nav-link,
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.nav-item a.nav-link:hover,
+.navbar-nav .nav-item .nav-link:hover{
+    /* border-bottom: 1px solid #fff; */
+    color: rgb(105, 100, 100);
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: rgb(105, 100, 100);
+    /* border-bottom: 2px solid #fff; */
+}
