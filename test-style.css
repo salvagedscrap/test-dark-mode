@@ -137,3 +137,7 @@ span{
     color: rgb(105, 100, 100);
     /* border-bottom: 2px solid #fff; */
 }
+#codeInputPane{
+    background-color: #605861;
+    color: #fff
+}
